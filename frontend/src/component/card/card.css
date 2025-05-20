@@ -1,0 +1,18 @@
+.parag{
+    margin-top: 20px;
+}
+.title{
+    margin-bottom: 50px;
+}
+.blog-card{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.cardies_content{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

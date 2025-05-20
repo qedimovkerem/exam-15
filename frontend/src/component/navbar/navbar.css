@@ -1,0 +1,5 @@
+.nav-navbar{
+    display: flex;
+    padding: 20px 0px;
+    justify-content: space-between;
+}

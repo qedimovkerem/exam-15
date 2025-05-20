@@ -1,0 +1,45 @@
+#hero{
+    background-image: url("https://preview.colorlib.com/theme/tasty/images/bg_2.jpg");
+    background-position: center;
+    background-size: cover;
+    padding-top: 300px;
+    text-align: center;
+}
+.hero_btn{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 10px 20px ;
+    margin-top: 50px;
+}
+.hero_title{
+    color: white;
+    font-size: 50px;
+}
+form{
+    margin: 10px auto;
+    display: flex;
+    gap: 20px;
+    padding: 20px 50px;
+    background-color: orange;
+    width: 900px;
+    margin-top: 50px;
+}
+.hero_input_btn{
+    background-color: white;
+    padding: 20px;
+}
+.input{
+    background-color: transparent;
+    height: 80px;
+}
+select{
+    background-color: transparent;
+}
+
+@media(max-width:768px){
+    form{
+        flex-direction: column;
+        width: 300px;
+    }
+}

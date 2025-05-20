@@ -1,0 +1,37 @@
+#products{
+    margin-top: 100px;
+}
+.products_tite{
+    text-align: center;
+    font-size: 30px;
+}
+
+.filter{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.product_btn{
+    padding: 3px 5px;
+    background-color: transparent;
+    margin: 10px;
+}
+.search{
+    height: 30px;
+}
+.product_btn1{
+
+    padding: 6px 5px;
+    background-color: transparent;
+    border:  1px solid black;
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+}
+@media(max-width:768px){
+    .filter{
+        flex-direction: column;
+        align-items: center
+        };
+}
