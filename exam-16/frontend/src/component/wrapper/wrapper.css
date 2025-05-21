@@ -1,0 +1,10 @@
+.wrapper{
+    display: flex;
+    gap: 10px;
+    margin: 18px;
+    font-size: 20px;
+}
+.admin{
+    background-color: transparent;
+    padding: 3px 5px;
+}

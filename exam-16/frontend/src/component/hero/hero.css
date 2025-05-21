@@ -1,0 +1,23 @@
+#hero{
+    background-image: url("https://preview.colorlib.com/theme/pato/images/slide1-01.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 200px 0px;
+    color: white;
+    z-index: 1;
+    text-align: center;
+}
+.hero_btn{
+    color: red;
+    padding: 10px  20px ;
+    border: 1px solid red;
+    border-radius: 8px;
+}
+.hero_parag{
+    font-size: 60px;
+}
+.hero_title{
+    font-size: 90px;
+    letter-spacing: 20px;
+    margin: 10px;
+}
